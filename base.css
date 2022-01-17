@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden hidden;
+}
+a{
+    text-decoration:none;
+    font-size: 14px;
+    font-family: Montserrat, Montserrat-Regular;
+    font-weight: 400;
+    color: #ffffff;
+}
+.header_login{
+    width: 100%;
+    margin-top: 55px;
+}
+.head_line_login{
+    width: 580px;
+    float: left;
+    margin-top: 30px;
+    margin-left: calc(100% - 1050px);
+
+}
+
+.head_line_login dt{
+    width: auto;
+    text-align: center;
+    float: left;
+    font-size: 17px;
+    margin-left: 60px;
+    color: rgba(255, 255, 255, 0.644);
+
+}
+
+.head_line_login dt:hover{
+    font-weight: bold;
+
+}
+
+.page_login{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(225deg,#6ee2f5, #6454f0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding:0;
+}
+.loginWindow{
+    min-width: 550px;
+    max-width: 600px;
+    min-height: 300px;
+    max-height: 700px;
+    background: #ffffff;
+    border-radius: 20px;
+    opacity: 0.8;
+    background: linear-gradient(180deg,#677ef1, #343f79);
+    border-radius: 20px;
+    box-shadow: 0px 10px 6px 0px undefined;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right:0;
+    bottom: 0;
+    width: 40%;
+    height: 420px;
+}
+.cube{
+    width: 17%;
+    height: 50px;
+    background: #7e38c7;
+    border-radius: 5px;
+    position: absolute;
+}
+.loginWindow .cube p{
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: center;
+}
+.loginWindow input{
+    position: absolute;
+    width: 62%;
+    height: 48px;
+    opacity: 0.4;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    border:none;
+
+}
+input::-webkit-input-placeholder{
+    font-size:18px;
+    color:#ffffff;
+}
+input::-moz-placeholder{
+    font-size:18px;
+    color:#ffffff;
+}
+#loginButton{
+    width: 20%;
+    height: 50px;
+    background: linear-gradient(180deg,#61a7ec, #297dcf);
+    border-radius: 23px;
+    box-shadow: 0px 3px 6px 0px #8d9bf7;
+    font-size: 14px;
+    font-family: Open Sans, Open Sans-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+}
+.ball1{
+    margin-top: 20%;
+    margin-left: 60%;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(225deg,#6119b2 1%, #b875f2 96%);
+    border-radius: 50%;
+}
+.ball2{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(225deg,#5d24e4 1%, #aa7feb 96%);
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.ball3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(225deg,#4235c5 1%, #8b8ff8 96%);
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: -3%;
+}
+
+.three_days{
+    width:220px; height:65px; margin-left:65px; margin-top:10px;float:left;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="base.css">
+    <script type="text/javascript" src="base.js"></script>
+</head>
+<body>
+
+    <div class="page_login">
+        <div class="header_login">
+            <img class="three_days" src="./Three Days.png"/>
+            <dl class="head_line_login" style="">
+                <dt style="cursor: not-allowed">关于我们</dt>
+                <dt style="cursor: not-allowed">有关服务</dt>
+                <dt style="cursor: not-allowed">联系方式</dt>
+
+            </dl>
+
+        </div>
+
+        <div id="ball1" class="ball1" >
+        </div>
+        <div class="ball2" style="">
+        </div>
+        <div class="ball3" style="">
+        </div>
+
+
+        <form class="loginWindow"  style="">
+
+            <input type="text" id="email" placeholder="请输入你的邮箱"
+                      autocomplete="on"
+                      style="position: absolute;margin-top: 8%; margin-left: 27%;">
+
+            <input type="text" id="StId" placeholder="请输入你的学号"
+
+                      autocomplete="on"
+                      style="position: absolute;margin-top: 20%; margin-left: 27%;">
+
+            <input type="password" id="pwd" placeholder="请输入你的密码"
+
+                      autocomplete="on"
+                      style="position: absolute;margin-top: 32%; margin-left: 27%;">
+
+            <input type="password" id="Rigpwd" placeholder="请再次确认你的密码"
+
+                      maxlength="15"
+                      autocomplete="on"
+                      style="position: absolute;margin-top: 44%; margin-left: 27%;">
+
+            <div class="cube" style="margin-top: 8%;margin-left: 10%;">
+                <p>邮箱</p>
+            </div>
+            <div class="cube" style="margin-top: 20%;margin-left: 10%;" >
+                <p>学号</p>
+            </div>
+            <div class="cube" style="margin-top: 32%;margin-left: 10%;">
+                <p>密码</p>
+            </div>
+            <div class="cube" style="margin-top: 44%;margin-left: 10%;" >
+                <p>确认密码</p>
+            </div>
+
+            <!-- 按此按钮跳转到登陆界面 -->
+            <button  id="loginButton" onclick="jumptoLogin()"
+                       style="margin-top: 58%;margin-left: 40%;">登录
+            </button>
+            <!--嘲讽地带-->
+            <div id="msg" style="margin-left: 30%;color: #ff0000;font-size: larger"></div>
+        </form>
+        </div>
+
+
+</body>
+</html>
